@@ -1,0 +1,636 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+   
+ 
+}
+html{
+    scroll-behavior: smooth;
+}
+/*Nav start*/
+.our-nav{
+   background:#87509c; 
+} 
+
+.navbar-nav{
+ margin-top: 15px;
+ 
+}
+
+.navbar-nav li {
+    padding: 1px;
+    
+    margin: 6px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: .7s;
+}
+
+.navbar-nav ul li a{
+
+
+}
+.navbar-nav li:hover{
+    background: #643a79;
+}
+.homeActve{
+    background: #643a79 ;
+    border-radius: 5px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+img.logo {
+    width: 94px;
+}
+/*nav End*/
+
+/*Home section Start*/
+#Home-section{
+    
+    /* height: 32.25rem; */
+    background: #87509c;
+    margin-top: -45px;
+    padding: 51px;
+}
+
+ 
+
+
+
+.home-text{
+    padding: 80px;
+}
+.home-text h1{
+    color:#fff;
+    
+}
+
+@media (max-width:1200px) {
+
+    .home-text h1{
+    
+        width: 300px;
+        margin-left: -40px;
+    }
+}
+
+
+
+
+.home-text a{
+    text-decoration: none;
+}
+
+.btnclick {
+    background: #eb7d4b;
+    color: #fff!important;
+    text-decoration: none!important;
+    display: block;
+    margin: auto;
+    width: 266px;
+    height: 58px;
+    font-size: 24px;
+    border-bottom: 3px solid #c86a40;
+    padding: 8px;
+    /* margin-top: -29px; */
+    margin-bottom: 45px;
+    /* margin-left: 52px; */
+    padding: 12px;
+    text-align: center;
+}
+
+/*Home-Section ENd*/
+
+
+
+/* Service_section-start*/
+#services-section {
+    background: #17c2a4;
+    color: #fff;
+    margin-bottom: 20px;
+   
+    margin-top: -25px;
+}
+#services-section h2 {
+    color: #fff;
+    position: relative;
+    margin-bottom: 22px;
+    font-size: 24px;
+}
+
+#services-section h2::after {
+    content: "";
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    background: #14a58c;
+    width: 4rem;
+    height: 9%;
+    margin: auto;
+    margin-left: -200px;
+}
+
+#services-section p {
+    width: 5o.5rem;
+    font-size: 18px;
+    width: 459px;
+    margin: auto;
+}
+
+.section-text h3{
+ font-size: 24px;
+ color: #fff;
+ margin-top: 50px;
+}
+
+
+ .section-text h6{  
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 47px;
+        font-weight: 300;
+    }
+
+
+
+ 
+
+h3.pan {
+    margin-top: 41px;
+}
+
+
+
+/*Sevices-section-end*/
+
+/*team-section start*/
+
+
+#Meet-section{
+ background: #e7f1f8;
+    margin-top: -20px; 
+
+}
+
+.meet-text h2{
+
+  position: relative;
+
+}
+.meet-text h2::after {
+    content: "";
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    background: #343a407a;
+    width: 5rem;
+    height: 9%;
+    margin: auto;
+    margin-left: -237px;
+}
+
+
+.meet-text p{
+    padding: 20px;
+}
+
+
+
+.team-description img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.team-text {
+
+}
+
+.team-text h3{
+ font-size:24px;
+}
+.team-text h5{
+ font-size: 16px;
+ margin-bottom: 10px;
+ color: #48c1e9 ;
+
+}
+.team-text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+   ;
+}
+
+.social-icon i {
+    font-size: 20px;
+    background: #bdd1df;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-top: -39px;
+}
+.social-icon{
+ 
+ padding: 10px;
+ margin-bottom: 70px;
+}
+/*team-section start end*/
+
+
+
+
+
+/*skill Section Start*/
+
+
+
+ #skill-section{
+   margin: auto;
+   text-align: center;
+   
+   
+ }
+.skill-text h2{
+
+    position: relative;
+  
+  }
+  .skill-text h2::after {
+    content: "";
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    background: #343a407a;
+    width: 5rem;
+    height: 9%;
+    margin: auto;
+    margin-left: -175px;
+}
+  
+  .skill-text p{
+      padding: 20px;
+  }
+ 
+  .skills-text{
+      text-align: center;
+      margin: auto;
+  }
+ 
+/*skill Section End*/
+
+
+
+
+/*progress start*/
+
+#circle{
+    margin-left: 158px; 
+
+
+}
+.circlechart{
+ padding: 6px;
+
+
+
+}
+.web{
+ margin-left: 36px;
+}
+.uix{
+    margin-left: 62px;
+}
+
+/*progress end*/
+
+
+/*Protfolio start */
+
+#protfolio_section{
+    background: #ffdd99;
+}
+
+
+.protfolio-text{
+    margin: auto;
+    text-align: center;
+    
+    
+  }
+ .protfolio-text h2{
+ 
+     position: relative;
+    margin-top: 57px;
+   }  
+   
+   .protfolio-text h2::after {
+     content: "";
+     position: absolute;
+     top: 60px;
+     bottom: 0;
+     background: #343a407a;
+     width: 5rem;
+     height: 9%;
+     margin: auto;
+     margin-left: -175px;
+ }
+   
+   
+   .protfolio-text p{
+       padding: 20px;
+   }
+
+   .btn-primary{
+       text-decoration: none;
+   }
+ 
+  
+
+
+.button{
+    padding: 5px;
+    width: 86px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;   background:#ebc985!important;
+    margin: 0px 5px;
+    transition: all 0.3s;
+ 
+}
+
+@media (max-width: 1200px){
+  .button {
+    margin-left: -24px;
+    margin: -7px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left-style: groove;}
+}
+
+
+
+.button:hover{
+    cursor: pointer;
+    box-shadow: inset 0 .3rem .5rem rgba(60, 71, 97, 0.5);
+}
+
+
+
+.firstImg h6 {
+    font-size: 18px;
+    /* padding: 28px; */
+   
+    margin-top: 28px;
+  
+    
+}
+
+.Btnload {
+    background:#17c2a4;
+    color: #fff!important;
+    text-decoration: none!important;
+    display: block;
+    margin: auto;
+    width: 266px;
+    height: 58px;
+    font-size: 16px;
+    border-bottom: 3px solid #14a58c;
+    padding: 8px;
+    margin-top: 60px;
+    margin-bottom: 45px;
+    /* margin-left: 52px; */
+    padding: 18px;
+    text-align: center;
+    border-radius:4px ;
+}
+
+/*protfolio End*/
+
+
+
+/*about us Start*/
+
+#about-section {
+    background: #d74680;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: -25px;
+   
+  
+}
+.about-text h2 {
+    color: #fff;
+    position: relative;
+    margin-bottom: 22px;
+    font-size: 24px;
+    marrgin-top: 76px!important;
+    margin-top: 38px;
+}
+
+.about-text h2::after {
+    content: "";
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    background: #b73c6d ;
+    width: 4rem;
+    height: 9%;
+    margin: auto;
+    margin-left: -198px;
+}
+
+.about-block{
+
+    margin-top: -30px;
+    padding: 68px;
+}
+
+.client-firstImg img {
+    width: 100px;
+    height: 98px;
+    border-radius: 100%;
+    position: absolute;
+    /* left: 26px; */
+}
+.client-text {
+    margin-left: 121px;
+    width: 300px;
+    margin-top: 8px;
+}
+
+.client-text h3{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.client-text h6{
+    color: #e7838a;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+.img-block{
+  
+}
+
+.abt-section{
+    
+}
+.client-block {
+    margin-left: 60px;
+}
+
+/*About us end*/
+
+
+
+/*contract start*/
+
+#contact{
+    background: #3c5499;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: -25px;
+   
+  
+}
+.contract-text h2 {
+    color: #fff;
+    position: relative;
+    margin-bottom: 22px;
+    font-size: 24px;
+    marrgin-top: 76px!important;
+    margin-top: 38px;
+}
+
+.contract-text h2::after {
+    content: "";
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    background: #b73c6d;
+    width: 4rem;
+    height: 9%;
+    margin: auto;
+    margin-left: -131px;
+}
+.contract-text {
+    margin: auto!important;
+
+}
+
+.form-control {
+    width: 421px;
+    padding: 20px;
+
+}
+
+
+
+
+.form-control {
+    width: 442px;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(73, 80, 87);
+    background-color: #273a71;
+    background-clip: padding-box;
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    margin: auto;
+    border: none;
+    color: #fff;
+   
+}
+
+
+@media (max-width:1200px){
+    .form-control{
+        width: 300px;
+    }
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+    background: #273a71;
+    border:none!important;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+@media (max-width:1200px){
+    textarea{
+        width: 441px;
+        margin-top: 20px;
+    }
+}
+
+
+
+.btnclickLast {
+    background: #30bae7;
+    color: #fff!important;
+    text-decoration: none!important;
+    display: block;
+    margin: auto;
+    width: 266px;
+    height: 58px;
+    font-size: 24px;
+    border-bottom: 3px solid #299ec5;
+    padding: 8px;
+    /* margin-top: -29px; */
+    margin-bottom: 45px;
+    /* margin-left: 52px; */
+    padding: 12px;
+    text-align: center;
+}
+
+
+
+
+
+/*contract end*/
+
+.footer {
+    background: #344b8e;
+    margin-top: -20px;
+}
+.footer-text{
+    text-align: center;
+   
+}
+.footer-text ul{
+ display: flex;
+ 
+
+}
+.footer-text ul li {
+    padding: 26px;
+    list-style: none;
+    font-size: 24px;
+    color: #fff;
+}
+
+@media(max-width:1200px){
+    .footer-text {
+        width: 350px;
+    }
+}
